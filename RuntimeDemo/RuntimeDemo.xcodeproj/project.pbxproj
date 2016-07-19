@@ -13,7 +13,6 @@
 		3ADEB3BE1C1444C9007A3821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEB3BC1C1444C9007A3821 /* Main.storyboard */; };
 		3ADEB3C01C1444C9007A3821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEB3BF1C1444C9007A3821 /* Assets.xcassets */; };
 		3ADEB3C31C1444C9007A3821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEB3C11C1444C9007A3821 /* LaunchScreen.storyboard */; };
-		3ADEB3CD1C14454F007A3821 /* ImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEB3CC1C14454F007A3821 /* ImageModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +26,6 @@
 		3ADEB3BF1C1444C9007A3821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3ADEB3C21C1444C9007A3821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3ADEB3C41C1444C9007A3821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3ADEB3CB1C14454F007A3821 /* ImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageModel.h; sourceTree = "<group>"; };
-		3ADEB3CC1C14454F007A3821 /* ImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +58,6 @@
 		3ADEB3B21C1444C9007A3821 /* RuntimeDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3ADEB3CA1C14454F007A3821 /* Model */,
 				3ADEB3B61C1444C9007A3821 /* AppDelegate.h */,
 				3ADEB3B71C1444C9007A3821 /* AppDelegate.m */,
 				3ADEB3B91C1444C9007A3821 /* ViewController.h */,
@@ -81,15 +77,6 @@
 				3ADEB3B41C1444C9007A3821 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		3ADEB3CA1C14454F007A3821 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				3ADEB3CB1C14454F007A3821 /* ImageModel.h */,
-				3ADEB3CC1C14454F007A3821 /* ImageModel.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,7 +152,6 @@
 				3ADEB3BB1C1444C9007A3821 /* ViewController.m in Sources */,
 				3ADEB3B81C1444C9007A3821 /* AppDelegate.m in Sources */,
 				3ADEB3B51C1444C9007A3821 /* main.m in Sources */,
-				3ADEB3CD1C14454F007A3821 /* ImageModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +298,7 @@
 				3ADEB3C91C1444C9007A3821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
