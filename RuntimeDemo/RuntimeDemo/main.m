@@ -7,9 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "Child.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        Child *child = [Child new];
+        [child class];
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
